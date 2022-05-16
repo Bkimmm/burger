@@ -1,0 +1,36 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "build": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development nodemon server/server.js & NODE_ENV=development webpack serve --open "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bkimmm/burger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bkimmm/burger/issues"
+  },
+  "homepage": "https://github.com/Bkimmm/burger#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "nodemon": "^2.0.16",
+    "react-router-dom": "^6.3.0",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
