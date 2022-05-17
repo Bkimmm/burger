@@ -35,6 +35,7 @@
     "html-webpack-plugin": "^5.5.0",
     "nodemon": "^2.0.16",
     "react-router-dom": "^6.3.0",
+    "react-slideshow-image": "^3.7.5",
     "webpack-dev-server": "^4.9.0"
   }
 }
