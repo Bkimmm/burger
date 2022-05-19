@@ -13,7 +13,7 @@ function Demo (props) {
             borderRadius: '5px', 
             border: 'solid 1px black'
         }}>
-            <div>{props.input}</div>
+            {/* <div>{props.input}</div> */}
             {/* <input>code</input> */}
         </div>
 

@@ -47,7 +47,15 @@ module.exports = {
       },
       {
         test: /\.s[ac]ss$/i,
+        exclude: /node_modules/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
+        // test: /\.s[ac]ss$/i,
+        // include: paths.appSrc,
+        // loaders: [
+        //   require.resolve('style-loader'),
+        //   require.resolve('css-loader'),
+        //   require.resolve('sass-loader')
+        // ]
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,

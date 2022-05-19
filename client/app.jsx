@@ -1,26 +1,16 @@
 import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import ResponsiveAppBar from './components/navbar.jsx';
-import slideShow from './components/slideshow.jsx';
-import Demo from './components/Demo.jsx';
-// import NavBar from './components/navbar.jsx'
-// import NavBar from './components/navbar.jsx'
-// import NavBar from './components/navbar.jsx'
-// import NavBar from './components/navbar.jsx'
-// import NavBar from './components/navbar.jsx'
-import MainContainer from './components/mainContainer.jsx'
+import Navbar from './containers/Navbar.jsx';
+import Demo from './containers/Demo.jsx';
+import Footer from './containers/Footer.jsx'
+import styles from './scss/styles.scss';
 
-
-function App(){
+function App() {
     return(
         <BrowserRouter>
-        {/* <ResponsiveAppBar/> */}
-        <MainContainer/>
+            <Navbar/>
         </BrowserRouter>
     );
 };
-
-
-
 
 export default App;
