@@ -1,16 +1,15 @@
 import React from 'react';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Navbar from './containers/Navbar.jsx';
-import Demo from './containers/Demo.jsx';
-import Footer from './containers/Footer.jsx'
-import styles from './scss/styles.scss';
-
+import {Routes, Route} from 'react-router-dom';
+import Home from './routes/Home.jsx'
+import './index.css'
 function App() {
-    return(
-        <BrowserRouter>
-            <Navbar/>
-        </BrowserRouter>
-    );
-};
+  return(
+    <div className='App'>
+        <Routes>
+            <Route path ='/' element = {<Home/>} />
+        </Routes>
+    </div>
+  );
+}
 
 export default App;

@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+
 module.exports = {
   mode: process.env.NODE_ENV,
   entry: path.join(__dirname, './client/index.js'),
@@ -35,7 +36,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?/,
+        test: /\.js$|jsx/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -61,6 +62,20 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
       },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.mp4$/,
+        use: 'file-loader?name=videos/[name].[ext]',
+      },
+
+
+      // {
+      //   test: /\.(sass|less|css)$/,
+      //   loaders: ['style-loader', 'css-loader', 'less-loader']
+      // },
     ],
   },
 };
