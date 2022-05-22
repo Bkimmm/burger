@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <div>
         <Navbar />
-        <Video />
-        {/* <Contacts /> */}
+        {/* <Video /> */}
+        <Contacts />
 
     </div>
   )

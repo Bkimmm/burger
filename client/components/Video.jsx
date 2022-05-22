@@ -13,7 +13,6 @@ const Video = () => {
             <h1>Olympus</h1>
             <p>GraphQL + Redis</p>
             <p>Hybrid Cache</p>
-
             <div>
                 <Link to='Demo' className='btn'>Demo</Link>
                 {/* <Link to='Demo' className='btn btn-light'>Demo</Link> */}
