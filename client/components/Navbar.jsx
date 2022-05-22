@@ -20,9 +20,6 @@ const Navbar = () => {
                 {click ? (<Link to ='/' style={{color:'white'}}>Home</Link>):
                 (<Link to ='/' >Home</Link>)
                 }
-                 
-                 
-
             </li>
             <li>
                  <a href='/' style={click ? {color:'white'}:{color:'black'}}>Npm install</a>
