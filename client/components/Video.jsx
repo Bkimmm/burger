@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import './Video.css'
+import '../styles/Video.css'
 import greekVideo from '../assets/Poseidon.mp4'
 
 const Video = () => {
