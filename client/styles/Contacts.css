@@ -1,7 +1,7 @@
 .contacts {
     width: 100%;
     padding: 6rem 1rem;
-    background-color: #000;
+    /* background-color: #000; */
 }
 
 .card-container {
@@ -25,6 +25,7 @@
 .card:hover {
     background-color: #141414;
 }
+
 
 .card h3 {
     font-size: 1.4rem;

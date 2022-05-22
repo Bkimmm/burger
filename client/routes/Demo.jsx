@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar.jsx'
 import Olympus from '../components/Olympus.jsx'
-const Home = () => {
+
+const Demo = () => {
   return (
     <div>
         <Navbar />
@@ -10,4 +11,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Demo

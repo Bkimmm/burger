@@ -2,7 +2,7 @@ import React from 'react'
 import Contacts from '../components/Contacts.jsx'
 import Navbar from '../components/Navbar.jsx'
 
-const Home = () => {
+const Team = () => {
   return (
     <div>
         <Navbar />
@@ -12,4 +12,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Team
