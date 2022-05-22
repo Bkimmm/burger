@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link to='/'><h1>Olympus</h1></Link>
         <ul className={click ? 'nav-menu active': 'nav-menu'}>
             <li>
-                {click ? (<Link to ='/' style={{color:'white'}}>Medium</Link>): (<Link to ='/' >Medium</Link>)}
+                {/* {click ? (<Link to ='/' style={{color:'white'}}>Medium</Link>): (<Link to ='/' >Medium</Link>)} */}
                 <Link to ='/' >Medium</Link>
             </li>
             <li>
@@ -26,10 +26,12 @@ const Navbar = () => {
             </li>
             <li>
                 {/* {click ? (<Link to ='/team' style={{color:'white'}}>Team</Link>):(<Link to ='/team'>Team</Link>)} */}
-                <Link to='/Team' style={click ? {color:'white'}:{color:'black'}}>Team</Link>
+                {/* <Link to='/Team' style={click ? {color:'white'}:{color:'black'}}>Team</Link> */}
+                <Link to='/Team' style={{color:'black'}}>Team</Link>
+
             </li>
             <li>
-                <a href='https://github.com/oslabs-beta/Olympus' target={'_blank'} style={click ? {color:'white'}:{color:'black'}}>Github</a>
+                <a href='https://github.com/oslabs-beta/Olympus' target={'_blank'} style={{color:'black'}}>Github</a>
             </li>
         </ul>
         <div className='hamburger' onClick={handleClick} >
