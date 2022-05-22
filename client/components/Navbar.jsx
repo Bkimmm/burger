@@ -33,7 +33,7 @@ const Navbar = () => {
                 }
             </li>
             <li>
-                <a href='https://github.com/oslabs-beta/Olympus' style={click ? {color:'white'}:{color:'black'}}>Github</a>
+                <a href='https://github.com/oslabs-beta/Olympus' target='_blank'style={click ? {color:'white'}:{color:'black'}}>Github</a>
             </li>
             <li>
             {click ? (<Link to ='/' style={{color:'white'}}>Home</Link>):(<Link to ='/' >Home</Link>)}
