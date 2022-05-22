@@ -7,3 +7,22 @@
     height: 100%;
     top: 40vh;
 }
+.demo-display {
+    display: flex;
+    gap: 0px;
+}
+.demo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.graph {
+    background: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 25vh;
+    width: 20rem;
+}
+    
