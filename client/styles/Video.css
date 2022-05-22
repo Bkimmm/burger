@@ -6,13 +6,13 @@
     z-index: -1;
 }
 
-.hero{
+.main{
     height: 100vh;
     width: 100%;
     object-fit: contain;
 }
 
-.hero .content{
+.main .content{
     text-align: center;
     position: absolute;
     margin: auto;
@@ -21,11 +21,11 @@
     top: 40vh;
 } 
 
-.hero .content h1{
+.main .content h1{
     font-size: 4rem;
 }
 /*Uppercase is a style choice */
-.hero p {
+.main p {
     font-size: 1.8rem;
     font-weight: 200;
     text-transform: uppercase;
@@ -33,7 +33,7 @@
     color: black;
 }
 
-.hero .btn {
+.main .btn {
     margin: 1rem .2rem;
 }
 

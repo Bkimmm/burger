@@ -5,7 +5,7 @@ import greekVideo from '../assets/Poseidon.mp4'
 
 const Video = () => {
   return (
-    <div className='hero'>
+    <div className='main'>
         <video autoPlay loop muted id='video'>
             <source src={greekVideo} type='video/mp4'/>
         </video>
