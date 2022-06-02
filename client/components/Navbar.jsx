@@ -13,11 +13,12 @@ const Navbar = () => {
         <ul className={click ? 'nav-menu active': 'nav-menu'}>
             <li>
                 {/* {click ? (<Link to ='/' style={{color:'white'}}>Medium</Link>): (<Link to ='/' >Medium</Link>)} */}
-                <Link to ='/' >Medium</Link>
+                {/* <Link to ='https://medium.com/@marshallkkim29/olympus-an-intuitive-hybrid-caching-solution-for-graphql-b18a08c5045d' >Medium</Link> */}
+                <a href='https://medium.com/@marshallkkim29/olympus-an-intuitive-hybrid-caching-solution-for-graphql-b18a08c5045d' target={'_blank'} style={{color:'black'}}>Medium</a>
             </li>
             <li>
                  {/* <a href='/' style={click ? {color:'white'}:{color:'black'}}>NPM Download</a> */}
-                 <a href='/' style={{color:'black'}}>NPM Download</a>
+                 <a href='https://www.npmjs.com/package/olympus-cache' target={'_blank'} style={{color:'black'}}>NPM Download</a>
 
             </li>
             <li>
@@ -35,7 +36,7 @@ const Navbar = () => {
             </li>
         </ul>
         <div className='hamburger' onClick={handleClick} >
-            { click ? (<FaTimes size = {25} style={{color: 'red'}}/>) : (<FaBars size = {20} style={{color:'black'}}></FaBars>)}
+            { click ? (<FaTimes size = {25} />) : (<FaBars size = {20} ></FaBars>)}
             
         </div>
     </div>
