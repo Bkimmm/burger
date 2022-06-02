@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Project",
   "main": "index.js",
+  "engines": {
+    "node": "16.14.0",
+    "npm": "8.3.1"
+  },
   "scripts": {
-    "start": "nodemon server/server.js",
     "build": "NODE_ENV=production webpack",
-    "dev": "NODE_ENV=development nodemon server/server.js & NODE_ENV=development webpack serve --open "
+    "start": "NODE_ENV=production webpack serve"
   },
   "repository": {
     "type": "git",
@@ -21,12 +24,9 @@
   "homepage": "https://github.com/Bkimmm/burger#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
-    "node-sass": "^7.0.1",
-    "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2"
+    "node-sass": "^7.0.1"
   },
   "dependencies": {
-    "@babel/core": "^7.18.2",
     "@babel/plugin-transform-runtime": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
     "@babel/preset-react": "^7.16.7",
@@ -48,6 +48,8 @@
     "scss": "^0.2.4",
     "scss-loader": "^0.0.1",
     "style-loader": "^3.3.1",
-    "webpack-dev-server": "^4.9.0"
+    "webpack-dev-server": "^4.9.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2"
   }
 }
