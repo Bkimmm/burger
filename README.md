@@ -1,2 +1,2 @@
 # Olympus
-A hybrid caching library for GraphQL written for Javascript Express
+building the skeleton of the Olympus demo website
